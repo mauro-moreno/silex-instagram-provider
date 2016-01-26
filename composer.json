@@ -1,0 +1,22 @@
+{
+  "name": "mauro-moreno/silex-instagram-provider",
+  "description": "Silex Instagram service provider",
+  "license": "MIT",
+  "keywords": ["silex", "instagram"],
+  "authors": [
+    {
+      "name": "Mauro Moreno",
+      "email": "moreno.mauro.emanuel@gmail.com"
+    }
+  ],
+  "require": {
+    "cosenary/instagram": "2.*"
+  },
+  "require-dev": {
+    "silex/silex": ">=1",
+    "phpunit/phpunit": ">=5.1"
+  },
+  "autoload": {
+    "psr-4": { "MauroMoreno\\SilexInstagram\\": "src/" }
+  }
+}
