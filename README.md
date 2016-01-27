@@ -21,6 +21,8 @@ To enable
 ```php
 <?php
 $app = new Silex\Application;
-$app['mappers'] = []; // Array of mapping classes
+$app['instagram.key'] = API_KEY;
+$app['instagram.secret'] = API_SECRET;
+$app['instagram.callback'] = API_CALLBACK;
 $app->register(new MauroMoreno\SilexInstagram\SilexInstagramServiceProvider);
 ```
